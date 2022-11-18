@@ -28,12 +28,13 @@ os.system(f"title Youtube View Bot ^| Views Sent: {amount}^ | Error: {error}")
 print("\n" * 80)
 
 url = input("Enter Video URL: ")
+length = input("Enter Video Length: ")
 count = input("Enter View Count: ")
 
 time1 = input("Enter Minimum Time Between Views in seconds: ")
 time2 = input("Enter Maximum Time Between Views in seconds: ")
 
-interval = randrange((time1), (time2))
+interval = randrange(int(time1), int(time2))
 
 driver = webdriver.Chrome(PATH)
 
@@ -44,7 +45,8 @@ while (count == count):
   error += 1
   os.system(f"title Youtube View Bot ^| Views Sent: {amount}^| Error: {error}")
   driver.get(url)
-  time.sleep(interval)
+  time.sleep(int(length)+interval)
   print(f"{Fore.GREEN} [+] View")
   amount += 1
   os.system(f"title Youtube View Bot ^| Views Sent: {amount}^| Error: {error}")
+
