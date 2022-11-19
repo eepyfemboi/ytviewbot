@@ -4,3 +4,5 @@ Long description: when downloaded, a config file will be made which will contain
 Repo edit dates and notes will be provided after here, and when the bot is somewhat operational, I will provide a operation instructions file.
   10/21/2022: Made repo
   11/17/2022: Uploaded .py file (nonfunctional).
+  11/18/2022: Made .py file work. Also started working on adding a converter so you don't have to manually figure out how many seconds are in the video, but I ran out of spare time, plus, each value (hours, minutes, seconds) must be entered separately, and I was still debugging it when I realized that I didn't have enough time to finish, so if this inconveniences you, I would love to again inform you that people who live in glass houses should fuck off. Btw, I should have it finished within a week or two, but I guarantee nothing.
+  
