@@ -18,7 +18,6 @@ import pyautogui
 from random import *
 
 PATH = "C:\Perflogs\chromedriver.exe"
-#EXCET#4508
 
 amount = 0
 error = 0
