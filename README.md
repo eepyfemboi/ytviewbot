@@ -1,4 +1,8 @@
 # ytviewbot
+should prob update this eventually
+
+its crazy to look back at projects i made years ago when i first started learning to code, and think "holy shit i was the stupidest idiot back then", and then realize that for the most part, i'm no better now
+
 YouTube View Bot: will be configured a list of video url's, and a time range to watch another video from the list after a random amount of time
 Long description: when downloaded, a config file will be made which will contain the time range plus other possible future config options, and a list file containing the video urls.
 Repo edit dates and notes will be provided after here, and when the bot is somewhat operational, I will provide a operation instructions file.
