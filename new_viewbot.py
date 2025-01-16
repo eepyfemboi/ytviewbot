@@ -85,5 +85,5 @@ class ViewBot:
         self.get_video_duration()
         self.bot_loop()
 
-
-ViewBot()
+if __name__ == "__main__:
+    ViewBot()
